@@ -1,7 +1,8 @@
 extends layout
 
 block content
-  h1(style=" color: #EE1762") Hello MVC
+  h1
+  a.text-danger(href='https://developer.mozilla.org/es/')   MDN Hello MVC
   p Ingresá el ID del usuario que querés buscar.
   form.form-inline(action='/search' method='get')
     div.form-group.mr-sm-3
